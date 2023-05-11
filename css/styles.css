@@ -30,6 +30,7 @@ h1,h2,h3,p {
 .title {
   color: var(--second-text-color);
   letter-spacing: 0.02em;
+
 }
 .text {
   color: var(--primary-text-color);
@@ -146,7 +147,7 @@ h1,h2,h3,p {
   top: 72px; */
   padding-top: 188px;
   padding-bottom: 188px;
-  background-image: ;
+  
 }
 .hero-container {
  
@@ -303,6 +304,7 @@ img {
 }
 .employee-container {
   padding: 32px 16px;
+  background-color: darksalmon;
 }
 
 .employee-text {
@@ -310,6 +312,79 @@ img {
   margin-top: 0;
   margin-bottom: 0;
 }
+.social-icon {
+  width: 40px;
+  height: 40px;
+  padding: 12px 12px;
+  background-color: #404bbf;
+  border-radius: 50%;
+}
+.social {
+
+
+}
+.social-icon-list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
+/* ========Company====== */
+.company-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.company-title {
+  margin-bottom: 72px;
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+}
+.company-item {
+  display: flex;
+  
+  gap: 24px;
+}
+
+/* 
+.company-logotype:hover
+.company-logotype:focus {
+color: #404bbf;
+} */
+.company-logotype {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
+
+
+/* .company-icon:hover
+.company-icon:focus {
+  
+}  */
+.company-icon {
+  
+}
+.company-link:hover
+.company-link:focus {
+  
+}
+.company-link {
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  color: #8e8f99;
+}
+ 
+
+/*=========== FOOTER============== */
 .footer {
   background-color: var(--secondary-background-color);
   padding-top: 100px;

@@ -146,6 +146,7 @@ h1,h2,h3,p {
   top: 72px; */
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: ;
 }
 .hero-container {
  
@@ -192,6 +193,16 @@ h1,h2,h3,p {
 .features {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  background-color: coral;
 }
 .features-list {
   display: flex;

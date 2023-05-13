@@ -328,7 +328,7 @@ img {
 
 }
 .social {
-fill: #4d5ae5;
+fill: #f4f4fd ;
 }
 
 .social-icon-link:hover,
@@ -573,7 +573,7 @@ align-items: center;
 
 .card-info:hover,
 .card-info:focus {
-  border-color: #F4F4FD;
+  /* border-color: #F4F4FD; */
  
 }
 

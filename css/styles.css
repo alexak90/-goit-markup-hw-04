@@ -94,7 +94,7 @@ h1,h2,h3,p {
 }
 .menu-link:hover::after {
   content: '';
-  bottom: -1px;
+  bottom: -4px;
   left: 0;
   position: absolute;
   width: 100%;
@@ -109,7 +109,7 @@ h1,h2,h3,p {
 
 .current::after {
   content: '';
-  bottom: -1px;
+  bottom: -4px;
   left: 0;
   position: absolute;
   width: 100%;

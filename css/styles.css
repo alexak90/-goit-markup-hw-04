@@ -92,7 +92,7 @@ h1,h2,h3,p {
 .menu-link::after {
   
 }
-.menu-link:hover::after {
+/* .menu-link:hover::after {
   content: '';
   bottom: -4px;
   left: 0;
@@ -105,7 +105,7 @@ h1,h2,h3,p {
   
   width: 100%;
   opacity: 1;
-}
+} */
 
 .current::after {
   content: '';
@@ -118,6 +118,11 @@ h1,h2,h3,p {
   transition: 250ms;
   border-radius: 2px;
 }
+
+.current {
+  color: #404BBF;
+}
+
 
 .header-nav:hover {
   color: #404bbf;
